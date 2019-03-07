@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block content %}
+<button id="safeTimerDisplay" class="btn-outline-dark" type="submit"></button>
+
+<div class="row" id="game" onload="main()" data-index="{{card_number/2}}">
+    {% for item in range(card_number) %}
+    <div class="card-wrap">
+        <div class="card fab fa-twitter fa-3x fa-fw">
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

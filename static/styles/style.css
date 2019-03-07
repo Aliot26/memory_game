@@ -1,0 +1,62 @@
+/*from https://wp-lessons.com/fon-dlya-sayta-na-chistom-css*/
+body {
+    background-image: -webkit-radial-gradient(circle at left, rgba(255, 255, 255, 0), #70dbdb 0%, #70dbdb 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0) 10%, #26d9bb 10%, #26d9bb 15%, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0) 20%, #22c38e 20%, #22c38e 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 30%, #26d9bb 30%, #26d9bb 35%, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0) 40%, #70dbdb 40%, #70dbdb 45%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 50%), -webkit-radial-gradient(right, circle, rgba(255, 255, 255, 0), #70dbdb 0%, #70dbdb 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0) 10%, #26d9bb 10%, #26d9bb 15%, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0) 20%, #22c38e 20%, #22c38e 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 30%, #26d9bb 30%, #26d9bb 35%, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0) 40%, #70dbdb 40%, #70dbdb 45%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 50%), -webkit-radial-gradient(circle at left, rgba(255, 255, 255, 0), #70dbdb 0%, #70dbdb 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0) 10%, #26d9bb 10%, #26d9bb 15%, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0) 20%, #22c38e 20%, #22c38e 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 30%, #26d9bb 30%, #26d9bb 35%, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0) 40%, #70dbdb 40%, #70dbdb 45%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 50%), -webkit-radial-gradient(right, circle, rgba(255, 255, 255, 0), #70dbdb 0%, #70dbdb 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0) 10%, #26d9bb 10%, #26d9bb 15%, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0) 20%, #22c38e 20%, #22c38e 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 30%, #26d9bb 30%, #26d9bb 35%, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0) 40%, #70dbdb 40%, #70dbdb 45%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 50%);
+    background-image: radial-gradient(circle at left, rgba(255, 255, 255, 0), #70dbdb 0%, #70dbdb 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0) 10%, #26d9bb 10%, #26d9bb 15%, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0) 20%, #22c38e 20%, #22c38e 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 30%, #26d9bb 30%, #26d9bb 35%, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0) 40%, #70dbdb 40%, #70dbdb 45%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 50%), radial-gradient(circle at right, rgba(255, 255, 255, 0), #70dbdb 0%, #70dbdb 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0) 10%, #26d9bb 10%, #26d9bb 15%, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0) 20%, #22c38e 20%, #22c38e 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 30%, #26d9bb 30%, #26d9bb 35%, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0) 40%, #70dbdb 40%, #70dbdb 45%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 50%), radial-gradient(circle at left, rgba(255, 255, 255, 0), #70dbdb 0%, #70dbdb 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0) 10%, #26d9bb 10%, #26d9bb 15%, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0) 20%, #22c38e 20%, #22c38e 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 30%, #26d9bb 30%, #26d9bb 35%, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0) 40%, #70dbdb 40%, #70dbdb 45%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 50%), radial-gradient(circle at right, rgba(255, 255, 255, 0), #70dbdb 0%, #70dbdb 5%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0) 10%, #26d9bb 10%, #26d9bb 15%, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0) 20%, #22c38e 20%, #22c38e 25%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 30%, #26d9bb 30%, #26d9bb 35%, rgba(255, 255, 255, 0) 35%, rgba(255, 255, 255, 0) 40%, #70dbdb 40%, #70dbdb 45%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0) 50%);
+    background-color: #22c3c3;
+    -webkit-background-size: 2em 2em;
+    background-size: 2em 2em;
+    background-position: 0 0, 0 1em, 1em 0, 1em 1em;
+    background-blend-mode: luminosity, luminosity, luminosity, luminosity;
+}
+
+.container {
+    /*background-color: #dddddd;*/
+}
+
+h1 {
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.form-control {
+    width: 70px;
+    border-radius: 20px;
+}
+
+button {
+    width: 70px;
+    border-radius: 20px;
+}
+
+.card {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 120px;
+    height: 90px;
+    background-color: #dddddd;
+    border-radius: 20px;
+    border: 2px solid #152139;
+}
+
+.card:hover {
+    background-color: rgba(72, 218, 224, 0.4);
+}
+
+.card-wrap {
+    margin: 10px 10px 10px 10px;
+    width: 120px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #4bd7dd;
+}
+
+#safeTimerDisplay {
+    width: 120px;
+    text-align: center;
+    border: 2px solid #152139;
+    border-radius: 22px;
+    background-color: #DDECEE;
+    font-size: 18px;
+}

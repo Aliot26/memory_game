@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="row">
+    <div class="col-6 col-md-4">
+        <form action="/cards" method="GET">
+            <label for="selection">How many cards would you like to play with?</label><br>
+            <select class="form-control" name="card-number" id="selection">
+                {% for i in range(1, 21, 1) %}
+                <option value="{{i}}">{{i}}</option>
+                {% endfor %}
+            </select>
+            <br>
+            <button class="btn-outline-dark" type="submit">Let's go!</button>
+        </form>
+    </div>
+    <div class="col-12 col-md-8">Welcome to our memory game.</div>
+</div>
+{% endblock %}
